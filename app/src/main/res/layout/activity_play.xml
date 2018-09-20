@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD"
+    android:orientation="vertical"
+    tools:context="com.example.deepa.musicplayer.PlayActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:background="#E3F2FD"
+        android:onClick="backToHome"/>
+    <TextView
+        android:id="@+id/song_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layoutWidth"
+        android:layout_weight="1"
+        android:background="#BBDEFB"
+        android:gravity="center"
+        android:paddingTop="@dimen/paddingTopTv"
+        android:text="@string/SongName"
+        android:textSize="@dimen/songTextSize"/>
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/layoutWidth"
+        android:layout_gravity="center"
+        android:layout_weight="6"
+        android:src="@drawable/musiclogo"/>
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layoutWidth"
+        android:layout_weight="1"
+        android:background="#BBDEFB">
+        <ImageView
+            android:id="@+id/pause"
+            android:layout_width="@dimen/layoutWidth"
+            android:layout_height="@dimen/imageViewht"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/pause"/>
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="@dimen/layoutWidth"
+            android:layout_height="@dimen/imageViewht"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/play"/>
+    </LinearLayout>
+</LinearLayout>

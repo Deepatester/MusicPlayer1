@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingTopTv">8dp</dimen>
+    <dimen name="imageViewht">32dp</dimen>
+    <dimen name="nameTextSize">18sp</dimen>
+    <dimen name="detailTextSize">16sp</dimen>
+    <dimen name="songTextSize">25sp</dimen>
+    <dimen name="layoutHeight">66dp</dimen>
+    <dimen name="playHeight">24dp</dimen>
+    <dimen name="playWeight">24dp</dimen>
+    <dimen name="marginRight">16dp</dimen>
+    <dimen name="marginTop">20dp</dimen>
+    <dimen name="layoutWidth">0dp</dimen>
+</resources>
